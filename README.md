@@ -9,12 +9,7 @@ OpenStreetlifting is an **open**, **collaborative** project building a **permane
 [![Release](https://img.shields.io/github/v/release/openstreetlifting/openstreetlifting)](https://openstreetlifting.org)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/openstreetlifting/openstreetlifting)
 
-The [project book](https://docs.openstreetlifting.org) explains how the archive works and how to use and contribute to it. This README introduces the project and helps you get started.
-
-## Access the data
-
-- Browse competition results on the [website](https://openstreetlifting.org). CSV downloads for individual competitions are **coming soon**.
-- Query the [API](https://api.openstreetlifting.org/swagger-ui/).
+To contribute data, Licensing, or just to learn more about this project, please read the [book](https://docs.openstreetlifting.org)
 
 ## Run locally
 
@@ -39,26 +34,30 @@ cd ..
 ./launch_local.sh
 ```
 
-The frontend runs at <http://localhost:5173>, the API at <http://localhost:8080>, and Swagger UI at <http://localhost:8080/swagger-ui/>.
-
-See the [backend](backend/README.md), [frontend](frontend/README.md), and [importer](backend/crates/osl_importer/README.md) READMEs for configuration and checks.
+- frontend: `localhost:5173`
+- backend: `localhost:8080`
 
 ## Contribute
 
-To contribute code, fork the repository, create a branch from `main`, and open a pull request. [GitHub issues](https://github.com/openstreetlifting/openstreetlifting/issues) track code and data work.
+Fork the repository, create a branch from `main`, and open a pull request.
+You can read through [GitHub issues](https://github.com/openstreetlifting/openstreetlifting/issues) to find work to do.
 
 To contribute competition data, follow the [data contribution guide](https://docs.openstreetlifting.org/CONTRIBUTING_DATA.html).
 
 ## Corrections
 
-Report data errors or missing competitions in an issue or pull request. Include the competition slug if one exists, describe the problem, and link to a source where available. You can also email [contact@openstreetlifting.org](mailto:contact@openstreetlifting.org).
+Report data errors or missing competitions in an issue or pull request. Describe the problem and link to a source. You can also email me at [contact@openstreetlifting.org](mailto:contact@openstreetlifting.org).
 
 ## Licensing
 
-The code is licensed under [AGPLv3](LICENSE). Data under `backend/data/` is dedicated to the public domain under [CC0 1.0](LICENSE-DATA). Credit is appreciated but not required.
+The code is licensed under [AGPLv3](LICENSE). Data (`backend/data/`) is licensed in the public domain under [CC0 1.0](LICENSE-DATA). Credit is appreciated but not required.
 
-The [Licensing chapter](https://docs.openstreetlifting.org/LICENSING.html) covers third-party material and the terms for contributing data.
+Sample attribution text:
+
+> This page uses data from the OpenStreetlifting project, <https://openstreetlifting.org>
+
+The [Licensing chapter](https://docs.openstreetlifting.org/LICENSING.html) covers third-party material and data contribution terms.
 
 ## Releases
 
-See the [changelog](CHANGELOG.md) for website and API releases.
+Read through the [changelog](CHANGELOG.md)
