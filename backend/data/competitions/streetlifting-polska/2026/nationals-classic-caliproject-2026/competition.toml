@@ -1,0 +1,14 @@
+event = "PD"
+sources = [
+    "Street Lifting Polska / Pull Only 1RM Polska results spreadsheet",
+    https://www.instagram.com/p/DZ43kb7DJbX/?img_index=6
+]
+
+[competition]
+name = "Polish SL Classic Nationals Caliproject"
+start_date = "2026-06-20"
+country = "PL"
+status = "completed"
+
+[federation]
+name = "Street Lifting Polska"
