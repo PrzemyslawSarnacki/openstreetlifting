@@ -7,7 +7,6 @@ sources = [
 [competition]
 name = "Underground Rabka-Zdrój"
 start_date = "2026-08-30"
-end_date = "2026-08-30"
 city = "Rabka-Zdrój"
 country = "PL"
 status = "completed"
