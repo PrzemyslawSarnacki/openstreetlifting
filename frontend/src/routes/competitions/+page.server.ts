@@ -26,10 +26,10 @@ export const load: PageServerLoad = async ({ url }) => {
   const year = Number(url.searchParams.get('year')) || undefined;
   const page = Number(url.searchParams.get('page') ?? 1) || 1;
 
-  const other = status === UPCOMING_STATUS ? RESULTS_STATUS : UPCOMING_STATUS;
+  const otherStatuses = COMPETITION_STATUS_FILTERS.filter((option) => option.value !== status);
 
   try {
-    const [{ data: competitions, pagination }, facets, otherCount] = await Promise.all([
+    const [{ data: competitions, pagination }, facets, otherResults] = await Promise.all([
       competitionsService.getAll({
         status,
         federation,
@@ -42,19 +42,36 @@ export const load: PageServerLoad = async ({ url }) => {
         page_size: TABLE_PAGE_SIZE,
       }),
       competitionsService.getFacets(),
-      competitionsService
-        .getAll({ status: other, federation, country, year, q, event, page_size: 1 })
-        .then((response) => response.pagination.total_items)
-        .catch(() => null),
+      Promise.all(
+        otherStatuses.map(({ value }) =>
+          competitionsService
+            .getAll({
+              status: value,
+              federation,
+              country,
+              year,
+              q,
+              event,
+              page_size: value === 'live' ? 5 : 1,
+            })
+            .then((response) => ({ status: value, ...response }))
+            .catch(() => null)
+        )
+      ),
     ]);
 
     const counts = {
       [status]: pagination.total_items,
-      ...(otherCount === null ? {} : { [other]: otherCount }),
+      ...Object.fromEntries(
+        otherResults
+          .filter((result) => result !== null)
+          .map((result) => [result.status, result.pagination.total_items])
+      ),
     } as Partial<Record<CompetitionStatus, number>>;
 
     return {
       competitions,
+      runningCompetitions: otherResults.find((result) => result?.status === 'live')?.data ?? [],
       pagination,
       facets,
       counts,
@@ -69,6 +86,7 @@ export const load: PageServerLoad = async ({ url }) => {
     console.error('Failed to load competitions', { status, page, error });
     return {
       competitions: [],
+      runningCompetitions: [],
       pagination: { page: 1, page_size: TABLE_PAGE_SIZE, total_items: 0, total_pages: 0 },
       facets: { federations: [], years: [], countries: [], formats: [] },
       counts: {} as Partial<Record<CompetitionStatus, number>>,
