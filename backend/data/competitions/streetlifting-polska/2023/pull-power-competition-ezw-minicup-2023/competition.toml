@@ -1,0 +1,12 @@
+event = "P"
+sources = ["https://docs.google.com/spreadsheets/d/1KtIFduz0gjleSfQgpbJIwsHm6ifZfLbA/edit?gid=710695198#gid=710695198"]
+
+[competition]
+name = "Pull Power Competition - EZW miniCUP"
+start_date = "2023-09-16"
+city = "Stąporków"
+country = "PL"
+status = "completed"
+
+[federation]
+name = "StreetLifting Polska"
