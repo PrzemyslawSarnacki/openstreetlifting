@@ -1,0 +1,12 @@
+event = "P"
+sources = ["https://docs.google.com/spreadsheets/d/1KtIFduz0gjleSfQgpbJIwsHm6ifZfLbA/edit?gid=710695198#gid=710695198"]
+
+[competition]
+name = "VIII Max Weighted Chin Up Nationals"
+start_date = "2023-09-23"
+city = "Sochaczew"
+country = "PL"
+status = "completed"
+
+[federation]
+name = "StreetLifting Polska"
