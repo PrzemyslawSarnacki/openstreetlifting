@@ -5,7 +5,7 @@ sources = [
 ]
 
 [competition]
-name = "SOB Summer Vibes 2023"
+name = "SOB Summer Vibes"
 start_date = "2023-07-09"
 country = "PL"
 status = "completed"
