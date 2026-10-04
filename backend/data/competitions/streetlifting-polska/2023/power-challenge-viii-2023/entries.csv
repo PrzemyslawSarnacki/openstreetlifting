@@ -1,0 +1,14 @@
+Division,Sex,FirstName,LastName,Disambiguation,Country,BodyweightKg,ReportedRis,TotalKg,Status,StatusReason,MuscleUp1Kg,MuscleUp2Kg,MuscleUp3Kg,BestMuscleUpKg,PullUp1Kg,PullUp2Kg,PullUp3Kg,BestPullUpKg,Dips1Kg,Dips2Kg,Dips3Kg,BestDipsKg,Squat1Kg,Squat2Kg,Squat3Kg,BestSquatKg
+,M,Mateusz,Dumiec,,PL,80.9,,397.5,competed,,20,27.5,32.5x,27.5,70,80x,82.5,82.5,92.5,100,112.5,112.5,160,175,185x,175
+,M,Przemysław,Sarnacki,,PL,102.1,,407.5,competed,,2.5x,2.5x,2.5,2.5,70,80,85,85,100x,105,110,110,180,200,210,210
+,M,Karol,Siemieniuk,,PL,82.1,,337.5,competed,,25,27.5x,30,30,77.5,80,82.5x,80,92.5,97.5,100x,97.5,125,130,135x,130
+,M,Kajetan,Nosko,,PL,73.4,,305,competed,,22.5x,22.5,22.5x,22.5,60,65,70,70,92.5,102.5x,97.5x,92.5,100,110,120,120
+,M,Robert,Brodzik,,PL,86.5,,290,competed,,2.5,7.5,15,15,60,70,75,75,60,75,85x,75,110,125,135x,125
+,M,Przemysław,Grużewski,,PL,62.2,,227.5,competed,,5,10,12.5,12.5,45,50,60,60,45,55,60,60,90,95,97x,95
+,M,Dawid,Bieniek,,PL,71.4,,245,competed,,5,10,20x,10,45,50,55x,50,75,80x,80x,75,90,100,110,110
+,M,Paweł,Pędzich,,PL,74.5,,,disqualified,Bombed muscle-ups,0.5x,2.5x,5x,,35,40,42.5x,40,55,60,70,70,85,95,105,105
+,M,Grzegorz,Parafiński,,PL,77.3,,200,competed,,0.5x,5x,7.5,7.5,35,40,45x,40,50,57.5,62.5,62.5,90,94x,94x,90
+,M,Krystian,Piotrak,,PL,97.3,,,disqualified,Bombed muscle-ups and squats,0.5x,5x,5x,,50,55,57.5,57.5,97.5,125x,125x,97.5,125x,125x,125x,
+,F,Małgorzata,Luckner,,PL,73.0,,187.5,competed,,,,,,40,45x,45x,40,42.5,47.5,57.5x,47.5,90,100,110x,100
+,F,Agata,Zyśk,,PL,58.6,,125,competed,,,,,,15,20x,20,20,15,20,25,25,65,75,80,80
+,F,Angelika,Jarosz,,PL,60.4,,120,competed,,,,,,15,20,25x,20,15,20,25,25,65,70,75,75
