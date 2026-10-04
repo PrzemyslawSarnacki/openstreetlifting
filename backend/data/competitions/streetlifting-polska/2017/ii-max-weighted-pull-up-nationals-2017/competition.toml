@@ -1,0 +1,12 @@
+event = "P"
+sources = ["https://docs.google.com/spreadsheets/d/1KtIFduz0gjleSfQgpbJIwsHm6ifZfLbA/edit?gid=710695198#gid=710695198"]
+
+[competition]
+name = "II Max Weighted Pull Up Nationals"
+start_date = "2017-09-30"
+city = "Sochaczew"
+country = "PL"
+status = "completed"
+
+[federation]
+name = "StreetLifting Polska"
