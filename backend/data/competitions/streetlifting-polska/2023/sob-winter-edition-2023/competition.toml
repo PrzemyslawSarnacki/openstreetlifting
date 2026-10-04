@@ -5,7 +5,7 @@ sources = [
 ]
 
 [competition]
-name = "SOB Winter Edition 2023"
+name = "SOB Winter Edition"
 start_date = "2023-02-26"
 country = "PL"
 status = "completed"
