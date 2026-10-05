@@ -7,7 +7,6 @@ OpenStreetlifting is an **open**, **collaborative** project building a **permane
 ![CI Backend](https://github.com/openstreetlifting/openstreetlifting/actions/workflows/ci-backend.yaml/badge.svg)
 ![CI Frontend](https://github.com/openstreetlifting/openstreetlifting/actions/workflows/ci-frontend.yaml/badge.svg)
 [![Release](https://img.shields.io/github/v/release/openstreetlifting/openstreetlifting)](https://openstreetlifting.org)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/openstreetlifting/openstreetlifting)
 
 To contribute data, Licensing, or just to learn more about this project, please read the [book](https://docs.openstreetlifting.org)
 
