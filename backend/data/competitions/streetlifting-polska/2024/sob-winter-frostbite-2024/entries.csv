@@ -1,7 +1,7 @@
 Sex,WeightClassKg,FirstName,LastName,Disambiguation,Country,BodyweightKg,ReportedRis,TotalKg,Status,StatusReason,MuscleUp1Kg,MuscleUp2Kg,MuscleUp3Kg,BestMuscleUpKg,PullUp1Kg,PullUp2Kg,PullUp3Kg,BestPullUpKg,Dips1Kg,Dips2Kg,Dips3Kg,BestDipsKg,Squat1Kg,Squat2Kg,Squat3Kg,BestSquatKg
-M,70,Jakub,Bartołd,,PL,69.76,,163.5,competed,,,,,,67.5,70,71,71,92.5x,92.5x,92.5,92.5,,,,
+M,70,Jakub,Bartołd,,PL,69.7,,163.5,competed,,,,,,67.5,70,71,71,92.5x,92.5x,92.5,92.5,,,,
 M,70,Michał,Fila,,PL,67.35,,205,competed,,,,,,90,95,100x,95,110,115x,115x,110,,,,
-M,70,Mateusz,Koślak,,PL,70.28,,212.5,competed,,,,,,82.5,87.5,92.5x,87.5,115,125,130x,125,,,,
+M,70,Mateusz,Koślak,,PL,70.2,,212.5,competed,,,,,,82.5,87.5,92.5x,87.5,115,125,130x,125,,,,
 M,70,Bartłomiej,Krzemiński,,PL,70.65,,167.5,competed,,,,,,57.5,62.5,63.5x,62.5,100,105,109x,105,,,,
 M,70,Damian,Markowski,,PL,67.75,,174.5,competed,,,,,,60,62.5,66.5,66.5,100,105,108,108,,,,
 M,70,Michał,Popiela,,PL,69.35,,147.5,competed,,,,,,60,65,70,70,75,77.5,82.5x,77.5,,,,
@@ -35,5 +35,5 @@ M,92.5+,Przemysław,Sarnacki,,PL,105.1,,192,competed,,,,,,80,85x,,80,112,117x,11
 F,62.5,Agata,Betkowska,,PL,53.65,,56,competed,,,,,,20,22.5,24x,22.5,25,30x,33.5,33.5,,,,
 F,62.5,Magdalena,Cygan,,PL,54.5,,50,competed,,,,,,15,20,22.5x,20,25,28,30,30,,,,
 F,62.5,Julia,Lis,,PL,53,,57.5,competed,,,,,,22.5,25,27.5,27.5,30,32.5x,32.5x,30,,,,
-F,62.5,Marta,Orczyk,,PL,57.92,,57.5,competed,,,,,,27.5,30,31.5x,30,27.5,31.5x,31.5x,27.5,,,,
+F,62.5,Marta,Orczyk,,PL,57.9,,57.5,competed,,,,,,27.5,30,31.5x,30,27.5,31.5x,31.5x,27.5,,,,
 F,62.5,Małgorzata,Wyżlic,,PL,60.75,,95,competed,,,,,,40,45,47.5x,45,40,45,50,50,,,,

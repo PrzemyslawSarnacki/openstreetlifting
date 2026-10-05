@@ -5,7 +5,7 @@ sources = [
 ]
 
 [competition]
-name = "SOB Winter Frostbite 2024"
+name = "SOB Winter Frostbite"
 start_date = "2024-03-03"
 country = "PL"
 status = "completed"
