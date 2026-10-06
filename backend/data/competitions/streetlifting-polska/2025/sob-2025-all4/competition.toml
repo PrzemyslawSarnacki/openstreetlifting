@@ -1,0 +1,16 @@
+event = "MPDS"
+sources = [
+    "https://calibase.org/competitions/straight-outta-battle-mistrzostwa-polski-street-lifting-2025-hc4ttwte/",
+    "https://docs.google.com/spreadsheets/d/15L0wUByjlEOFnoM1674GEznimA8KZ0NvhK5v25JRwvc/edit?gid=1756673722#gid=1756673722",
+]
+
+[competition]
+name = "SOB - Polish StreetLifting All4 Nationals"
+start_date = "2025-07-05"
+end_date = "2025-07-06"
+city = "Cekcyn"
+country = "PL"
+status = "completed"
+
+[federation]
+name = "StreetLifting Polska"
