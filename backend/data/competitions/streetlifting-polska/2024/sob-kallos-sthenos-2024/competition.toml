@@ -5,7 +5,7 @@ sources = [
 ]
 
 [competition]
-name = "SOB Kallos Sthenos 2024"
+name = "SOB Kallos Sthenos"
 start_date = "2024-07-27"
 country = "PL"
 status = "completed"
