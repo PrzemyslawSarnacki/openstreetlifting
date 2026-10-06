@@ -2,6 +2,7 @@ event = "MPDS"
 sources = [
     "https://app.final-rep.com/#/events/statistics/3EwH9FG6Pf3MCsOZRyYodE7ep7z?ris=false",
     "https://final-rep.com/euros26/",
+    "https://www.instagram.com/p/DeJajl7iHfG/",
 ]
 
 [competition]
