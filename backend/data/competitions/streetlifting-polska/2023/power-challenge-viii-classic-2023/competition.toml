@@ -1,0 +1,12 @@
+event = "PDS"
+sources = ["https://docs.google.com/spreadsheets/d/1KtIFduz0gjleSfQgpbJIwsHm6ifZfLbA/edit?gid=710695198#gid=710695198"]
+
+[competition]
+name = "Power Challenge VIII Classic"
+start_date = "2023-07-01"
+city = "Ostrów Mazowiecka"
+country = "PL"
+status = "completed"
+
+[federation]
+name = "StreetLifting Polska"
