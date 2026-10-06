@@ -1,8 +1,8 @@
 event = "P"
-sources = ["https://docs.google.com/spreadsheets/d/1KtIFduz0gjleSfQgpbJIwsHm6ifZfLbA/edit?gid=710695198#gid=710695198"]
+sources = ["https://docs.google.com/spreadsheets/d/1-g_jhz1FAbhCpRHGXrOY1A47VWC0NQYe/edit"]
 
 [competition]
-name = "VI Max Weighted Chin Up Nationals"
+name = "Max Weighted Chin-Up Nationals VI"
 start_date = "2021-10-09"
 city = "Sochaczew"
 country = "PL"
