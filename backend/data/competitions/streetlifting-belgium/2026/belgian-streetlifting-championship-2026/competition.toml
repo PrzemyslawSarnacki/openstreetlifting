@@ -1,0 +1,14 @@
+sources = ["https://www.instagram.com/p/DZ0BlyAsppv/"]
+
+[competition]
+name = "Belgian Streetlifting Championship"
+start_date = "2026-11-14"
+end_date = "2026-11-15"
+city = "Auderghem"
+venue = "Club Akuma 2.0"
+country = "BE"
+status = "upcoming"
+
+[federation]
+name = "Streetlifting Belgium"
+country = "BE"
