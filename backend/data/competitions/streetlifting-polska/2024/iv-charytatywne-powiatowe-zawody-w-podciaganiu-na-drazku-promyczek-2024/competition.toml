@@ -1,0 +1,11 @@
+event = "P"
+sources = ["https://docs.google.com/spreadsheets/d/1KtIFduz0gjleSfQgpbJIwsHm6ifZfLbA/edit?gid=710695198#gid=710695198"]
+
+[competition]
+name = "IV Charytatywne Powiatowe Zawody w Podciąganiu na Drążku - Promyczek"
+start_date = "2024-09-01"
+country = "PL"
+status = "completed"
+
+[federation]
+name = "StreetLifting Polska"
