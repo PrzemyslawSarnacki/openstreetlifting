@@ -1,0 +1,10 @@
+Sex,FirstName,LastName,Disambiguation,Country,BodyweightKg,ReportedRis,TotalKg,Status,StatusReason,MuscleUp1Kg,MuscleUp2Kg,MuscleUp3Kg,BestMuscleUpKg,PullUp1Kg,PullUp2Kg,PullUp3Kg,BestPullUpKg,Dips1Kg,Dips2Kg,Dips3Kg,BestDipsKg,Squat1Kg,Squat2Kg,Squat3Kg,BestSquatKg
+M,Kacper,Bartczak,,PL,,,20,competed,,10,15,20,20,,,,,,,,,,,,
+M,Dawid,Bieniek,,PL,,,20,competed,,10,20,27.5x,20,,,,,,,,,,,,
+M,Kacper,Gotowicz,,PL,,,25,competed,,15,25x,25,25,,,,,,,,,,,,
+M,Dawid,Idzikowski,,PL,,,20,competed,,10,20,25x,20,,,,,,,,,,,,
+M,Dawid,Korcz,,PL,,,27.5,competed,,20,25,27.5,27.5,,,,,,,,,,,,
+M,Sebastian,Stepnowski,,PL,,,22.5,competed,,15,22.5,25x,22.5,,,,,,,,,,,,
+M,Szymon,Tarantowicz,,PL,,,35,competed,,30,35,,35,,,,,,,,,,,,
+M,Tymek,Wieremiejuk,,PL,,,,disqualified,All three muscle-up attempts failed,20x,25x,25x,,,,,,,,,,,,,
+M,Hubert,Zakrzewski,,PL,,,25,competed,,15,20,25,25,,,,,,,,,,,,
