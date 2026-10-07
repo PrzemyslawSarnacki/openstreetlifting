@@ -2,12 +2,37 @@ event = "MPDS"
 sources = [
     "https://calibase.org/competitions/straight-outta-battle-mistrzostwa-polski-street-lifting-2025-hc4ttwte/",
     "https://docs.google.com/spreadsheets/d/15L0wUByjlEOFnoM1674GEznimA8KZ0NvhK5v25JRwvc/edit?gid=1756673722#gid=1756673722",
+    "https://www.instagram.com/2old2train/",
+    "https://www.instagram.com/ancy_moonek/",
+    "https://www.instagram.com/b_a_n__5/",
+    "https://www.instagram.com/balbistreetlifting/",
+    "https://www.instagram.com/bartek1346653/",
+    "https://www.instagram.com/bboy_przemko/",
+    "https://www.instagram.com/buldiii/",
+    "https://www.instagram.com/dawidsubda/",
+    "https://www.instagram.com/dybowski_michal/",
+    "https://www.instagram.com/fitznachor/",
+    "https://www.instagram.com/hubi_sw/",
+    "https://www.instagram.com/hubxiak/",
+    "https://www.instagram.com/jakub_chlipala/",
+    "https://www.instagram.com/jalokkim/",
+    "https://www.instagram.com/jan_balut/",
+    "https://www.instagram.com/lukasz_langner.sl/",
+    "https://www.instagram.com/mikolaj_plonka/",
+    "https://www.instagram.com/nasri_szysz/",
+    "https://www.instagram.com/pinokio_sw/",
+    "https://www.instagram.com/racektoziomal/",
+    "https://www.instagram.com/sb20_sami/",
+    "https://www.instagram.com/sebiisw/",
+    "https://www.instagram.com/siemien1/",
+    "https://www.instagram.com/themavlan/",
+    "https://www.instagram.com/trzeszczkowski.konrad/",
+    "https://www.instagram.com/zabost_workout/",
 ]
 
 [competition]
 name = "SOB - Polish StreetLifting All4 Nationals"
 start_date = "2025-07-05"
-end_date = "2025-07-06"
 city = "Cekcyn"
 country = "PL"
 status = "completed"
