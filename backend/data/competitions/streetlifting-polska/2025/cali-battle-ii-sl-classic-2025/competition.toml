@@ -1,0 +1,13 @@
+event = "PD"
+sources = ["https://docs.google.com/spreadsheets/d/1KtIFduz0gjleSfQgpbJIwsHm6ifZfLbA/edit?gid=710695198#gid=710695198"]
+
+[competition]
+name = "Cali Battle II SL Classic"
+start_date = "2025-06-01"
+city = "Wrocław"
+country = "PL"
+status = "completed"
+scoring = "total"
+
+[federation]
+name = "StreetLifting Polska"
