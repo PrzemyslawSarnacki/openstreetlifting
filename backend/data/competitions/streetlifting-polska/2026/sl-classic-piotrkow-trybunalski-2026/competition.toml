@@ -1,0 +1,12 @@
+event = "PD"
+sources = ["https://docs.google.com/spreadsheets/d/1KtIFduz0gjleSfQgpbJIwsHm6ifZfLbA/edit?gid=710695198#gid=710695198"]
+
+[competition]
+name = "SL Classic Piotrków Trybunalski"
+start_date = "2026-04-25"
+city = "Piotrków Trybunalski"
+country = "PL"
+status = "completed"
+
+[federation]
+name = "StreetLifting Polska"
