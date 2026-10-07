@@ -1,0 +1,12 @@
+event = "PD"
+sources = ["https://docs.google.com/spreadsheets/d/1KtIFduz0gjleSfQgpbJIwsHm6ifZfLbA/edit?gid=710695198#gid=710695198"]
+
+[competition]
+name = "SL Classic Drawsko Pomorskie"
+start_date = "2025-07-05"
+city = "Drawsko Pomorskie"
+country = "PL"
+status = "completed"
+
+[federation]
+name = "StreetLifting Polska"
