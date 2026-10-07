@@ -1,0 +1,11 @@
+event = "M"
+sources = ["https://docs.google.com/spreadsheets/d/1KtIFduz0gjleSfQgpbJIwsHm6ifZfLbA/edit?gid=710695198#gid=710695198"]
+
+[competition]
+name = "Phoenix Games"
+start_date = "2026-08-22"
+country = "PL"
+status = "completed"
+
+[federation]
+name = "StreetLifting Polska"
