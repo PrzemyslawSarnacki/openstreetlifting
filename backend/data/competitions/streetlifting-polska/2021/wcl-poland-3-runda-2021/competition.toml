@@ -1,0 +1,13 @@
+event = "PDS"
+sources = ["https://docs.google.com/spreadsheets/d/1KtIFduz0gjleSfQgpbJIwsHm6ifZfLbA/edit?gid=710695198#gid=710695198"]
+
+[competition]
+scoring = "total"
+name = "WCL Poland 3 Runda"
+start_date = "2021-09-18"
+city = "Ostrów Mazowiecka"
+country = "PL"
+status = "completed"
+
+[federation]
+name = "StreetLifting Polska"
