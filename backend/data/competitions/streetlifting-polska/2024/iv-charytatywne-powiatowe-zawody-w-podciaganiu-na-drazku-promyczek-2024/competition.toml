@@ -1,0 +1,17 @@
+event = "P"
+sources = [
+    "https://docs.google.com/spreadsheets/d/1-g_jhz1FAbhCpRHGXrOY1A47VWC0NQYe/edit",
+    "https://www.hospicjumpromyczek.pl/iv-charytatywne-powiatowe-zawody-w-podciaganiu-na-drazku-na-rzecz-promyczka/",
+]
+
+[competition]
+name = "IV Charytatywne Powiatowe Zawody w Podciąganiu na Drążku - Promyczek"
+start_date = "2024-09-01"
+city = "Otwock"
+venue = "Hard Box"
+country = "PL"
+status = "completed"
+scoring = "total"
+
+[federation]
+name = "StreetLifting Polska"
