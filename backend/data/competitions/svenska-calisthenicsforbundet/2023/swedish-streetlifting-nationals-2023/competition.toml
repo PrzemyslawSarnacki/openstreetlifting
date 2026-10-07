@@ -1,0 +1,19 @@
+event = "MPDS"
+sources = [
+    "https://calisthenicsforbundet.se/2023/06/19/resultat-1rm-sm-2023/",
+    "https://calisthenicsforbundet.se/svenska-masterskapen/",
+]
+
+[competition]
+name = "Swedish Streetlifting Nationals"
+start_date = "2023-06-10"
+end_date = "2023-06-11"
+city = "Stockholm"
+region = "Stockholm County"
+country = "SE"
+status = "completed"
+
+[federation]
+name = "Svenska Calisthenicsförbundet"
+abbreviation = "SCF"
+country = "SE"

@@ -5,6 +5,35 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.50.0](https://github.com/openstreetlifting/openstreetlifting/compare/v0.49.0...v0.50.0) (2026-10-07)
+
+
+### Features
+
+* **data:** import FNSL Hauts-de-France 2025 ([#828](https://github.com/openstreetlifting/openstreetlifting/issues/828)) ([14ccb90](https://github.com/openstreetlifting/openstreetlifting/commit/14ccb902240d37e8ef8229c9090b0692d8079c39))
+* **data:** import FNSL Nord-Est 2026 ([#830](https://github.com/openstreetlifting/openstreetlifting/issues/830)) ([7b563fa](https://github.com/openstreetlifting/openstreetlifting/commit/7b563fab003d0fc1623e8abfa00173ee9eb8a5a7))
+
+## [0.49.0](https://github.com/openstreetlifting/openstreetlifting/compare/v0.48.0...v0.49.0) (2026-10-07)
+
+
+### Features
+
+* **data:** import Swedish Streetlifting Nationals 2023 ([#820](https://github.com/openstreetlifting/openstreetlifting/issues/820)) ([9040649](https://github.com/openstreetlifting/openstreetlifting/commit/904064973b4e86ae3a9d3c1355d8bdc0bfd81731))
+* **data:** import Swedish Streetlifting Nationals 2024 ([#819](https://github.com/openstreetlifting/openstreetlifting/issues/819)) ([d97ee9e](https://github.com/openstreetlifting/openstreetlifting/commit/d97ee9eff9204441a5e00d2b1b9eb20bf45c7bf5))
+* **data:** import Swedish Streetlifting Nationals 2025 ([#818](https://github.com/openstreetlifting/openstreetlifting/issues/818)) ([dc969e1](https://github.com/openstreetlifting/openstreetlifting/commit/dc969e119c7953f43f7a9069c71f7350d263760e))
+* **data:** import Swedish Streetlifting Nationals 2026 ([#816](https://github.com/openstreetlifting/openstreetlifting/issues/816)) ([13a5108](https://github.com/openstreetlifting/openstreetlifting/commit/13a5108a6c9a904e30f6e538ee3767c8419818c6))
+
+## [0.48.0](https://github.com/openstreetlifting/openstreetlifting/compare/v0.47.0...v0.48.0) (2026-10-07)
+
+
+### Features
+
+* **data:** import CWWB 2015 ([#812](https://github.com/openstreetlifting/openstreetlifting/issues/812)) ([5ea6ec8](https://github.com/openstreetlifting/openstreetlifting/commit/5ea6ec8a527ba0a8fac6523a5ab63ad9e6ebba12))
+* **data:** import CWWB 2016 ([#813](https://github.com/openstreetlifting/openstreetlifting/issues/813)) ([c57750a](https://github.com/openstreetlifting/openstreetlifting/commit/c57750a0c29321aa6ee7f958fb2c5173207c94eb))
+* **data:** import CWWB 2017 ([#814](https://github.com/openstreetlifting/openstreetlifting/issues/814)) ([cecb2f1](https://github.com/openstreetlifting/openstreetlifting/commit/cecb2f15ee916ed80f5bae57f11d26b46e359be0))
+* **data:** import sob 2022 ([#811](https://github.com/openstreetlifting/openstreetlifting/issues/811)) ([6097609](https://github.com/openstreetlifting/openstreetlifting/commit/6097609ac9437b7f2fd7c2f9552496ff3cb37e7b))
+* **data:** import sob 2025 ([#810](https://github.com/openstreetlifting/openstreetlifting/issues/810)) ([9858f27](https://github.com/openstreetlifting/openstreetlifting/commit/9858f2730a6dfeff872b49d23bad8a551b0b30fc))
+
 ## [0.47.0](https://github.com/openstreetlifting/openstreetlifting/compare/v0.46.0...v0.47.0) (2026-10-06)
 
 
