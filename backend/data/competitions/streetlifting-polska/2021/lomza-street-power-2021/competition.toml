@@ -1,0 +1,16 @@
+event = "PD"
+sources = [
+    "https://docs.google.com/spreadsheets/d/1KtIFduz0gjleSfQgpbJIwsHm6ifZfLbA/edit?gid=710695198#gid=710695198",
+    "https://docs.google.com/spreadsheets/d/1CX7eDkcWIx8_nx_ZcmQW689C53VxhFdv3uk53K-WaOM/edit?gid=0#gid=0",
+]
+
+[competition]
+name = "Łomża Street Power IV"
+start_date = "2021-09-12"
+city = "Łomża"
+country = "PL"
+status = "completed"
+scoring = "total"
+
+[federation]
+name = "StreetLifting Polska"
