@@ -29,7 +29,7 @@ Competition name, start date, country, federation name, and a nonempty `sources`
 
 The competition name identifies the meet without repeating its federation or year: `Dutch Streetlifting Nationals`, not `DSN Dutch Streetlifting Nationals 2026`. Keep edition numbers that are part of the identity, such as `Australian Open Event 3`. Remove years even from titles such as `EUROS 24`. The directory slug retains the identifying federation and year.
 
-OpenStreetLifting covers streetlifting competitions combining muscle-up, pull-up, dips and squat. `MPDS` (all four lifts) and `PD` (pull-up and dips) are the main formats. `event` lists the contested movements in `MPDS` order, with each letter appearing at most once; examples also include `PDS`, `DS` and `M`.
+OpenStreetLifting covers streetlifting competitions combining muscle-up, pull-up, dips and squat. `MPDS` (all four lifts, sometimes called All4) and `PD` (pull-up and dips, sometimes called Classic) are the main formats. `event` lists the contested movements in `MPDS` order, with each letter appearing at most once; examples also include `PDS`, `DS` and `M`.
 
 Any combination of these four movements may have a total across its contested lifts. `MPDS` supports calculated RIS. Shorter events support published RIS ranking only when `scoring = "ris"` and the entire competition has no weight classes. Follow the [shorter-event RIS rules](../../../backend/docs/src/DATA_REFERENCE.md#ris-for-fewer-than-four-lifts); preserve the real event and leave uncontested movements empty.
 

@@ -66,8 +66,9 @@ it preserves a later end date. Optional fields can be left out.
 ### Event
 
 OpenStreetLifting covers streetlifting competitions combining muscle-up,
-pull-up, dips and squat. `MPDS` and `PD` are the main formats. `event` lists the
-contested movements using these letters in this order:
+pull-up, dips and squat. The main formats are `MPDS`, sometimes called **All4**,
+and `PD`, sometimes called **Classic**. `event` lists the contested movements
+using these letters in this order:
 
 | Letter | Movement  |
 | ------ | --------- |
