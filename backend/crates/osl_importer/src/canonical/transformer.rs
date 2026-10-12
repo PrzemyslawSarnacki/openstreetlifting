@@ -22,6 +22,7 @@ struct ImportedFacts {
 struct ContestKey {
     weight_class_id: Option<Uuid>,
     division_id: Option<Uuid>,
+    gender: osl_domain::Gender,
 }
 
 impl<'a> CanonicalTransformer<'a> {
@@ -94,7 +95,7 @@ impl<'a> CanonicalTransformer<'a> {
             for athlete in &category.athletes {
                 self.import_athlete_performance(
                     athlete,
-                    category,
+                    canonical,
                     competition_id,
                     contest,
                     &mut imported,
@@ -427,23 +428,26 @@ impl<'a> CanonicalTransformer<'a> {
         Ok(ContestKey {
             weight_class_id,
             division_id,
+            gender: category.gender,
         })
     }
 
     async fn import_athlete_performance(
         &self,
         athlete: &AthleteData,
-        category: &CategoryData,
+        canonical: &CanonicalFormat,
         competition_id: Uuid,
         contest: ContestKey,
         imported: &mut ImportedFacts,
         tx: &mut sqlx::Transaction<'_, sqlx::Postgres>,
     ) -> Result<()> {
         let athlete_id = self.upsert_athlete(athlete, tx).await?;
-        // Preserve the published score; bodyweight allows a separate ranking score.
+        // Shorter events keep published scores even when bodyweight and total are known.
         let ranking_ris = athlete.reported_ris.filter(|_| {
             athlete.status == osl_domain::AthleteStatus::Competed
-                && (athlete.bodyweight.is_none() || athlete.total.is_none())
+                && (canonical.uses_reported_ris()
+                    || (canonical.movements == Movement::ALL
+                        && (athlete.bodyweight.is_none() || athlete.total.is_none())))
         });
         let bodyweight_source = athlete.bodyweight_source().map(BodyweightSource::as_str);
         let reported_ris_edition = athlete.reported_ris_edition.map(|edition| edition.year());
@@ -482,7 +486,7 @@ impl<'a> CanonicalTransformer<'a> {
             reported_ris_edition,
             athlete.total,
             athlete.country.map(|country| country.as_str().to_owned()),
-            (category.gender == osl_domain::Gender::Mx).then_some("MX")
+            (contest.gender == osl_domain::Gender::Mx).then_some("MX")
         )
         .fetch_one(&mut **tx)
         .await?;

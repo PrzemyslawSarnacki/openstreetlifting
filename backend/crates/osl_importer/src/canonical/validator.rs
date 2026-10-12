@@ -218,10 +218,11 @@ impl CanonicalValidator {
         }
         if canonical.competition.scoring == Some(osl_domain::Scoring::Ris)
             && canonical.movements != osl_domain::Movement::ALL
+            && !canonical.uses_reported_ris()
         {
             report
                 .errors
-                .push("RIS scoring requires the four-movement MPDS event".into());
+                .push("RIS scoring requires MPDS or a shorter event with no weight classes anywhere in the competition".into());
         }
         for category in &canonical.categories {
             for athlete in &category.athletes {
@@ -247,6 +248,14 @@ impl CanonicalValidator {
                         report.warnings.push(format!("Athlete '{label}': {reason}"))
                     }
                     Ok(None) => {}
+                }
+                if canonical.uses_reported_ris()
+                    && athlete.status == AthleteStatus::Competed
+                    && athlete.reported_ris.is_none()
+                {
+                    report.warnings.push(format!(
+                        "Athlete '{label}' has no published RIS; shorter events require ReportedRis for a RIS placing"
+                    ));
                 }
                 if athlete.status == AthleteStatus::Competed
                     && athlete.total.is_none()
